@@ -10,7 +10,7 @@ const monitorActiveRequests = require("./");
 const noop = () => {};
 
 const readPackageJson = () => fs.readFile("./package.json", noop);
-const requestSomething = () => request("http://api.classdojo.com/", noop);
+const requestSomething = () => request("https://google.com/", noop);
 
 const DURATION = 300;
 
